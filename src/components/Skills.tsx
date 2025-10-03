@@ -20,7 +20,7 @@ const skillCategories = [
   },
   {
     title: "Tools & Platforms",
-    skills: ["Git", "Render", "PythonAnywhere", "VS Code", "Android Studio", "Eclipse"],
+    skills: ["Git", "Render", "PythonAnywhere", "VS Code", "Android Studio", "Vercel"],
   },
   {
     title: "Operating Systems",

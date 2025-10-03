@@ -8,20 +8,20 @@ const projects = [
     title: "Automated Legal Assistance and Advisory System (ALAAS)",
     description: "A comprehensive legal assistance platform that automates legal document analysis and provides advisory services using NLP and machine learning.",
     techStack: ["Flask", "Flutter", "Gmail API", "NLP", "Python"],
-    github: "#",
+    github: "https://github.com/akhilcj22/automated-legal-assistance-and-advisory-system.git",
   },
   {
     title: "Fake News Detection Using ML",
     description: "Machine learning model that detects fake news articles with 92% accuracy using TF-IDF vectorization and ensemble learning methods.",
     techStack: ["Flask", "Scikit-learn", "TF-IDF", "Python", "ML"],
-    github: "#",
+    github: "https://github.com/akhilcj22/Fake-News-Detection-using-Machine-Learning.git",
     accuracy: "92%",
   },
   {
     title: "Sentiment Analysis on Yelp Reviews",
     description: "Advanced sentiment analysis system using BERT transformer model to analyze customer reviews and provide business insights.",
     techStack: ["BERT", "PyTorch", "Flask", "REST API", "Python"],
-    github: "#",
+    github: "https://github.com/akhilcj22/Sentiment-Analysis-Project-using-BERT.git",
   },
 ];
 

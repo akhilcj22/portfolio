@@ -23,7 +23,7 @@ const Hero = () => {
           <div className="flex justify-center md:justify-start">
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl">
               <img 
-                src="/placeholder.svg" 
+                src="/photo.jpg" 
                 alt="Akhil C J - Python Full Stack Developer"
                 className="w-full h-full object-cover"
               />
@@ -42,10 +42,12 @@ const Hero = () => {
               Passionate about building web & mobile applications with Python, React, and Flutter
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-              <Button size="lg" className="gap-2">
-                <Download className="h-5 w-5" />
-                Download Resume
-              </Button>
+              <a href="/AKHIL_CJ.pdf" download>
+                <Button size="lg" className="gap-2">
+                  <Download className="h-5 w-5" />
+                  Download Resume
+                </Button>
+              </a>
               <Button size="lg" variant="outline" className="gap-2" onClick={scrollToContact}>
                 <Mail className="h-5 w-5" />
                 Contact Me
