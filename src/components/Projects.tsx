@@ -5,6 +5,12 @@ import { Github, ExternalLink } from "lucide-react";
 
 const projects = [
   {
+    title: "Django Blog Application",
+    description: "A production-ready Django blog showcasing full-stack skills, with user authentication, content management, and interactive features.",
+    techStack: ["Django ", "MVT ", "Bootstrap 5", "SQLite ", "Python"],
+    github: "https://github.com/akhilcj22/full-stack-Django-Blog-Application-.git",
+  },
+  {
     title: "Automated Legal Assistance and Advisory System (ALAAS)",
     description: "A comprehensive legal assistance platform that automates legal document analysis and provides advisory services using NLP and machine learning.",
     techStack: ["Flask", "Flutter", "Gmail API", "NLP", "Python"],
